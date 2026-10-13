@@ -2,7 +2,7 @@ import { useState, useRef } from "react";
 import { calculateHMAC } from "./hmacUtils";
 import bgVideo from "./assets/bgvdo.mp4";
 
-const API_BASE = "http://localhost:8000/api/auth";
+const API_BASE = "https://hmac-xtcq.onrender.com/api/auth";
 
 interface LogEntry {
   title: string;
